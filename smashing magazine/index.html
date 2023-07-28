@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🦋Smashing Magazine</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Rubik&display=swap" rel="stylesheet">
+<!-- font family -->
+<!-- font-family: 'Balsamiq Sans', cursive;
+font-family: 'Rubik', sans-serif; -->
+</head>
+<body>
+    <!-- header section -->
+    <header class="topnav d-flex">
+        <a href="">
+            <picture class="toplogo">
+                <source media="(max-width:1450px)" srcset="logo.png" alt="logoimg">
+                <img src="logoword.png" alt="logoimg">
+            </picture>
+        </a>
+        <!-- first nav -->
+        <nav class="navbar">
+            <ul class="nav firnav">
+                <li class="navli_1"><a href="">Articles</a></li>
+                <li class="navli_2"><a href="">Books</a></li>
+                <li class="navli_3"><a href="">Workshops</a></li>
+                <li class="navli_4"><a href="">Conferences</a></li>
+                <li class="navli_5"><a href="">Membership</a></li>
+                <li class="navli_6"><a href="">Job Board</a></li>
+                <li class="navli_7"><a href="">Newsletter</a></li>
+                <li><button class="topnavbtn" id="navbtn">
+                    <span class="btn_more">More</span>
+                    <span class="d-none btn_close">close</span>
+                    <span class=" btn_menu">Menu</span>
+                    <span class="d-none">close</span>
+                </button></li>
+            </ul>
+        </nav>
+
+        <div class="searchbtn">
+            <input type="search" placeholder="Search articles..." class="searchinput">
+        </div>
+        
+        <!-- red nav list for top button onclick -->
+    </header>
+    <div class="reddiv d-none">
+        <div>
+            <ul class="red_navtop">
+                <li><a href="">Articles</a></li>
+                <li><a href="">Books</a></li>
+                <li><a href="">Workshops</a></li>
+                <li><a href="">Conferences</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="red_navtop">
+                <li><a href="">Membership</a></li>
+                <li><a href="">Job Board</a></li>
+                <li><a href="">Newsletter</a></li>
+                <li><a href="">Podcasts</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="red_navtop">
+                <li><a href="">Write for us</a></li>
+                <li><a href="">Advertise with us</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- second header -->
+    <header class="downbox ">
+        <nav class="navbar navbar-expand text-nowrap">
+        <ul class="nav sechead d-flex flex-nowrap">
+            <li><a href="">Accessibility</a></li>
+            <li><a href="">UX</a></li>
+            <li><a href="">CSS</a></li>
+            <li><a href="">Javascript</a></li>
+            <li><a href="">Performance</a></li>
+            <li><a href="">Design</a></li>
+            <li><a href="">Figma</a></li>
+            <li><a href="">Wallpapers</a></li>
+            <li><a href="">React</a></li>
+            <li><a href="">Vue</a></li>
+            <li><a href="">Round-Ups</a></li>
+            <li><a href="">Web Design</a></li>
+            <li><a href="">Guides</a></li>
+            <li><a href="">Business</a></li>
+            <li><a href="">Career</a></li>
+            <li><a href="">Privacy</a></li>
+            <li><a href="" id="downart"><span>Jump to all articles ↬</span></a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col col-lg-12 col-md-12 col-xl-7">
+                    <!-- first article -->
+                    <article class="mt-5 ">
+                        <header class="d-flex row">
+                                <div class="img_rot col-md-3"><a href="" class="img_arot"><img src="firpho.jpg" alt="kylo img" class="kyloimg me-4"></a></div>
+                            <div class="col-md-8"><a href="" class="text-danger fw-bolder fs-5">Kylo Robinson</a>
+                                <em class="dimcolor fs-5">wrote</em>
+                                <h2 class="kyloh">Learning JavaScript With Imagination</h2> 
+                                <em class="dimcolor"> <span class="mayfont">MAY</span> 5, 2023 in</em>
+                                <a href="" class="ang">Javascript</a>,
+                                <a href="" class="ang">Coading</a>,
+                                <a href="" class="ang">Inspiration</a>
+                            </div>
+                        </header>
+                        <p class="contkylo">This is the story of how one little octopus, explaining one beginner’s concept, carried such weight and power for Kylo that it drove his work and led him to research something that is really quite silly.</p>
+                        <p><a href="" class="text-danger fw-bolder fs-5">Continue reading ↬</a></p>
+                    </article>
+                    <!-- second article -->
+                    <article class="secarticle">
+                        <header class="d-flex row">
+                            <div class="me-4 col-md-2 img_rot">
+                                <a href=""><img src="secpho.avif" alt="" class="secphoto"></a>
+                            </div>
+                            <div class="col-md-9">
+                                <a href="" class="seccont">Iliya Garakh</a>
+                                <em class="dimcolor">/ <span class="mayfont">MAY</span> 4,2023 in</em>
+                                <a href="" class="ang">Security</a>,
+                                <a href="" class="ang">Tools</a>,
+                                <a href="" class="ang">Techniques</a>
+                                <h2 class="secphoh">The Growing Need For Effective Password Management</h2>
+                            </div>
+                        </header>
+                    </article>
+                    <!-- third article -->
+                    <article class="secarticle">
+                        <header class="d-flex row">
+                            <div class="me-4 col-md-2 img_rot ">
+                                <a href=""><img src="thipho.avif" alt="" class="secphoto"></a>
+                            </div>
+                            <div class="col-md-9">
+                                <a href="" class="seccont">Drew McLellan</a>
+                                <em class="dimcolor">/         <span class="mayfont">MAY</span> 2,2023 in</em>
+                                <a href="" class="ang">Smashing Podcast</a>
+                                <h2 class="secphoh">Smashing Podcast Episode 60  Mei Zhang: A Design Process?</h2>
+                            </div>
+                        </header>
+                    </article>
+                </div>
+                <!-- Mail id div -->
+                <div class="col col-xl-4 offset-xl-1">
+                    <div class="emailbox">
+                        <a href="" class="cat">
+                            <img src="catphoto.svg" alt="catphoto">
+                        </a>
+                        <a class="mailltr" href="">Email Newsletter</a>
+                        <h2 class="uxtips">Useful front-end & UX tips, delivered once a week.</h2>
+                        <p class="pdf_list">With tools to help you get your work done better. Subscribe and get Vitaly's <a href="">Smart Interface Design Checklists PDF
+                        </a> - in your inbox. 🎁</p>
+                        <div class="maildiv"> 
+                            <div class="mailgroup">
+                                <input type="email" name="Email" id="" placeholder="Your email" class="inpmail"> 
+                                <input type="submit" value="Meow!" class="meow">
+                            </div>
+                        </div>
+                        <p class="folks"><small>On <a href="" class="folks">front-end & UX.</a>Trusted by 200,000+ folks.</small></p>
+                    </div>    
+                </div>
+                <!-- end mail id -->
+            </div>
+        </div>
+        <!-- card container -->
+        <div class="container">
+            <div class="row cardholder container">
+                <div class=" col-12  col-md-5  card card-green card-shadow">
+                    <h2><a href="" class="hgreen hcard">Accessible Front-End Components</a></h2>
+                    <p class="pcard">Reliable accessible UI components: <code>:focus</code> styles, modals, date pickers, navigation, tables, buttons, SVGs.</p>
+                    <a href="" class="btn-green btcard">Explore Accessible Components</a>
+                </div>
+                <div class=" col-12  col-md-5  card card-orange card-shadow">
+                    <h2><a href="" class="horange hcard">CSS Generators & Tools</a></h2>
+                    <p class="pcard">Useful CSS tools for animations, shadows, cubic-bezier curves, easing gradients, filters, overlays, type scales.</p>
+                    <a href="" class="btn-orange btcard">Explore CSS Generators</a>
+                </div>
+                <div class=" col-12 col-md-5  card card-violet card-shadow">
+                    <h2><a href="" class="hviolet hcard">Front-End Boilerplates & Starter Kits</a></h2>
+                    <p class="pcard">HTML boilerplates, CSS resets, forms, dev themes, gitignore, CSS snippets, static sites, style guides.</p>
+                    <a href="" class="btn-violet btcard">Explore Front-End Boilerplates</a>
+                </div>
+            </div>
+        </div>
+        <!-- end for card -->
+        <div class="guidiv">
+            <a href="" class="guides">SEE ALL GUIDES →</a>
+        </div>
+
+        <!-- latest post section -->
+        <section class="article_container">
+            <div class="container">
+                <div class="row">
+                    <h4 class="vertical"><span class="lat_post">LATEST POSTS</span></h4>
+                    <div class="totalarticle">
+                        <div class="articlediv">
+                            <article class="arcimg">
+                                <div class="imglatdiv img_rot">
+                                    <a href=""><img src="1latestph.avif" alt="1photo" class="imgarticle"></a>
+                                </div>
+                                <!-- content -->
+                                <div>
+                                <header>
+                                    <span>
+                                        <a href="" class="artang">Deepak Kumar</a>
+                                    </span>
+                                    <em class="wrotedim">wrote</em>
+                                </header>
+                                <h2 class="artichtag"><a href="" class="artichtag">A guide To Redux Toolkit With TypeScript</a></h2>
+                                <div>
+                                    <p class="ptagart">The Redux Toolkit documentation calls the library a better way to write Redux logic for React apps and a simple and a simple and efficient toolkit for Redux development. In this article, you will learn about the Redux toolkit by building an app that tracks project issues.
+                                    </p>
+                                    <p>
+                                        <img src="leafsymbol.svg" alt="" width="18px">
+                                        <em class="dimcolor"> <span class="mayfont">MAY</span> 10, 2023 in</em>
+                                        <a href="" class="ang">React</a>,
+                                        <a href="" class="ang">Redux</a>,
+                                        <a href="" class="ang">Javascript</a>
+                                    </p>
+                                </div>
+                            </div>
+                            </article>
+                        </div>
+                        <div class="articlediv">
+                            <article class="arcimg">
+                                <div class="imglatdiv img_rot">
+                                    <a href=""><img src="2latestph.avif" alt="2photo" class="imgarticle"></a>
+                                </div>
+                                <!-- content -->
+                                <div>
+                                <header>
+                                    <span>
+                                        <a href="" class="artang">Shane Duggan</a>
+                                    </span>
+                                    <em class="wrotedim">wrote</em>
+                                </header>
+                                <h2 class="artichtag"><a href="" class="artichtag">How To Use AI Tools To Skyrocket Your Programming Productivity</a></h2>
+                                <div>
+                                    <p class="ptagart">The rise of Artificial Intelligence (AI) in recent times has incited fear in many over losing their jobs. However, that shouldn’t be the case. On the contrary, AI is an opportunity to take your programming to the next level when used tactfully with the right knowledge, as we’ll cover today.
+                                    </p>
+                                    <p>
+                                        <img src="leafsymbol.svg" alt="" width="18px">
+                                        <em class="dimcolor"> <span class="mayfont">MAY</span> 9, 2023 in</em>
+                                        <a href="" class="ang">AI</a>,
+                                        <a href="" class="ang">Workflow</a>,
+                                        <a href="" class="ang">Tools</a>
+                                    </p>
+                                </div>
+                            </div>
+                            </article>
+                        </div>
+                        <div class="articlediv">
+                            <article class="arcimg">
+                                <div class="imglatdiv img_rot">
+                                    <a href=""><img src="3latestph.avif" alt="3photo" class="imgarticle"></a>
+                                </div>
+                                <!-- content -->
+                                <div>
+                                <header>
+                                    <span>
+                                        <a href="" class="artang">Jessica Joseph</a>
+                                    </span>
+                                    <em class="wrotedim">wrote</em>
+                                </header>
+                                <h2 class="artichtag"><a href="" class="artichtag">The Safest Way To Hide Your API Keys When Using React</a></h2>
+                                <div>
+                                    <p class="ptagart">Want to make sure your API keys are safe and sound when working with React? Jessica Joseph’s got you covered! She will show you the best ways to hide your API keys, from using environment variables to building your own back-end proxy server.
+                                    </p>
+                                    <p>
+                                        <img src="leafsymbol.svg" alt="" width="18px">
+                                        <em class="dimcolor"> <span class="mayfont">MAY</span> 8, 2023 in</em>
+                                        <a href="" class="ang">API</a>,
+                                        <a href="" class="ang">Apps</a>,
+                                        <a href="" class="ang">Tools</a>
+                                    </p>
+                                </div>
+                            </div>
+                            </article>
+                        </div>
+                        <div class="articlediv">
+                            <article class="arcimg">
+                            <div class="imglatdiv img_rot">
+                                <a href=""><img src="4latestph.avif" alt="4photo" class="imgarticle"></a>
+                            </div>
+                            <!-- content -->
+                            <div>
+                            <header>
+                                <span>
+                                    <a href="" class="artang">Kylo Robinson</a>
+                                </span>
+                                <em class="wrotedim">wrote</em>
+                            </header>
+                            <h2 class="artichtag"><a href="" class="artichtag">Learning JavaScript With Imagination</a></h2>
+                            <div>
+                                <p class="ptagart">This is the story of how one little octopus, explaining one beginner’s concept, carried such weight and power for Kylo that it drove his work and led him to research something that is really quite silly. And yet, it transformed how he learned to write — and finally understand — JavaScript.
+                                </p>
+                                <p>
+                                    <img src="leafsymbol.svg" alt="" width="18px">
+                                    <em class="dimcolor"> <span class="mayfont">MAY</span> 5, 2023 in</em>
+                                    <a href="" class="ang">JavaScript</a>,
+                                    <a href="" 
+                                    class="ang"> Coding</a>,
+                                    <a href="" class="ang"> Inspiration</a>
+                                </p>
+                            </div>
+                        </div>
+                        </article>
+                        </div>
+                        <div class="articlediv">
+                            <article class="arcimg">
+                                <div class="imglatdiv img_rot">
+                                    <a href=""><img src="5latestph.avif" alt="5photo" class="imgarticle"></a>
+                                </div>
+                                <!-- content -->
+                                <div>
+                                <header>
+                                    <span>
+                                        <a href="" class="artang">Iliya Garakh</a>
+                                    </span>
+                                    <em class="wrotedim">wrote</em>
+                                </header>
+                                <h2 class="artichtag"><a href="" class="artichtag">The Growing Need For Effective Password Management</a></h2>
+                                <div>
+                                    <p class="ptagart">Highlighting the advantages of self-hosted solutions over cloud-based alternatives and exploring collaborative password management and more, P demonstrates how to organize convenient and secure password management in a company.
+                                    </p>
+                                    <p>
+                                        <img src="leafsymbol.svg" alt="" width="18px">
+                                        <em class="dimcolor"> <span class="mayfont">MAY</span> 4, 2023 in</em>
+                                        <a href="" class="ang"> Security</a>,
+                                        <a href="" 
+                                        class="ang"> Tools</a>,
+                                        <a href="" class="ang">Techniques</a>
+                                    </p>
+                                </div>
+                            </div>
+                            </article>
+                        </div>
+                        <div class="articlediv">
+                            <article class="arcimg">
+                                <div class="imglatdiv img_rot">
+                                    <a href=""><img src="6latestph.avif" alt="6photo" class="imgarticle"></a>
+                                </div>
+                                <!-- content -->
+                                <div>
+                                <header>
+                                    <span>
+                                        <a href="" class="artang">Drew McLellan</a>
+                                    </span>
+                                    <em class="wrotedim">wrote</em>
+                                </header>
+                                <h2 class="artichtag"><a href="" class="artichtag">Smashing Podcast Episode 60 With Mei Zhang: How Do You Design A Design Process?</a></h2>
+                                <div>
+                                    <p class="ptagart">We’re talking about the process of design. How do you build a process to enable your best work? Vitaly Friedman talks to designer Mei Zhang to find out.
+                                    </p>
+                                    <p>
+                                        <img src="leafsymbol.svg" alt="" width="18px">
+                                        <em class="dimcolor"> <span class="mayfont">MAY</span> 2, 2023 in</em>
+                                        <a href="" class="ang">Smashing Podcast</a>
+                                    </p>
+                                </div>
+                            </div>
+                            </article>
+                        </div>
+                        <div class="articlediv">
+                            <article class="arcimg">
+                                <div class="imglatdiv img_rot">
+                                    <a href=""><img src="7latestph.avif" alt="7photo" class="imgarticle"></a>
+                                </div>
+                                <!-- content -->
+                                <div>
+                                <header>
+                                    <span>
+                                        <a href="" class="artang">Cosima Mielke</a>
+                                    </span>
+                                    <em class="wrotedim">wrote</em>
+                                </header>
+                                <h2 class="artichtag"><a href="" class="artichtag">Make Your May Magnificent (2023 Wallpapers Edition)</a></h2>
+                                <div>
+                                    <p class="ptagart">May is almost here, so what better occasion could there be for some fresh and inspiring desktop and mobile wallpapers? Created with love by artists and designers from across the globe, the wallpapers in this post come in versions with and without a calendar. Enjoy!
+                                    </p>
+                                    <p>
+                                        <img src="leafsymbol.svg" alt="" width="18px">
+                                        <em class="dimcolor"> <span class="mayfont">APRIL</span> 30, 2023 in</em>
+                                        <a href="" class="ang">Wallpapers</a>
+                                    </p>
+                                </div>
+                            </div>
+                            </article>
+                        </div>
+                        <div class="articlediv">
+                            <article class="arcimg">
+                                <div class="imglatdiv img_rot">
+                                    <a href=""><img src="8latestph.avif" alt="8photo" class="imgarticle"></a>
+                                </div>
+                                <!-- content -->
+                                <div>
+                                <header>
+                                    <span>
+                                        <a href="" class="artang">Yaphi Berhanu</a>
+                                    </span>
+                                    <em class="wrotedim">wrote</em>
+                                </header>
+                                <h2 class="artichtag"><a href="" class="artichtag">Write Better CSS By Borrowing Ideas From JavaScript Functions</a></h2>
+                                <div>
+                                    <p class="ptagart">Many problems with website layouts happen when we don’t write CSS with the same care we’d use when writing a JavaScript function. Let’s look at how we can borrow best practices and ideas from writing good JavaScript functions for writing CSS.
+                                    </p>
+                                    <p>
+                                        <img src="leafsymbol.svg" alt="" width="18px">
+                                        <em class="dimcolor"> <span class="mayfont">APRIL</span> 28, 2023 in</em>
+                                        <a href="" class="ang">CSS</a>,
+                                        <a href="" class="ang">Javascript</a>,
+                                        <a href="" class="ang">Techniques</a>
+                                    </p>
+                                </div>
+                            </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="guidiv">
+                        <a href="" class="guides">SEE MORE LATEST ARTICLES →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section for  scrolling content-->
+        <section>
+            <div class="container scrollcontent">
+                <div class="row col-12">
+                    <div class="scrolltitle col-12">
+                        <h2 class="scrollhtag">That's The Smashing Family.</h2>
+                        <h3 class="scrh3">Smashing Magazine is so much more than articles.</h3>
+                    </div>
+                    <!-- card whole -->
+                    <div class="family_grid_container">
+                        <div class="family">
+                        <!-- green card -->
+                        <div class="greenscroll wcard emailbox">
+                            <a href="" class="cat"><img src="green scroll.svg" alt="green scroll"></a>
+                            <h2 class="scollcards">Smashing Books</h2>
+                            <p class="pdf_list"><Strong>14 printed books</Strong>
+                            and
+                            <strong>67 eBooks.</strong>
+                            Written for web developers, designers and marketeers.
+                            </p>
+                            <button class="scrollbtn">Jump to books ↬</button><br>
+                            <small><em> Free airmail shipping worldwide.No its or buts.</em></small>
+                        </div>
+                        <!-- green card end -->
+                        <!-- blue card -->
+                        <div class="bluescroll wcard emailbox">
+                            <a href="" class="cat"><img src="blue scroll.svg" alt="blue scroll"></a>
+                            <h2 class="scollcards">Smashing workshops</h2>
+                            <p class="pdf_list">Online workshops with experts. Broken into 2.5h-segments, with interactive, live sessions.</p>
+                            <button class="scrollbtn">Jump to workshops ↬</button><br>
+                            <small><em>2.5h live sessions, with video recordings and Q&A.</em></small>
+                        </div>
+                        <!-- blue card end -->
+                        <!-- red card -->
+                        <div class="redscroll wcard emailbox">
+                            <a href="" class="cat"><img src="red scroll.svg" alt="red scroll"></a>
+                            <h2 class="scollcards">Smashing Job Board</h2>
+                            <p class="pdf_list">Helping designers and developers find great jobs, and connect with great companies.</p>
+                            <button class="scrollbtn">Jump to jobs ↬</button><br>
+                            <small><em>Freelancers and full-time, in front-end & UX.</em></small>
+                        </div>
+                        <!-- red card end -->
+                        <!-- lightgreen card -->
+                        <div class="lightgreenscroll     emailbox wcard">
+                            <a href="" class="cat"><img src="lightgreen scroll.svg" alt="lightgreen scroll"></a>
+                            <h2 class="scollcards">Smashing Membership</h2>
+                            <p class="pdf_list">A friendly community for people who design and build the web. With discounts, goodies and fancy cats.</p>
+                            <button class="scrollbtn">Jump to Membership ↬</button><br>
+                            <small><em>For just 1 coffee a month.</em></small>
+                        </div>
+                        <!-- yellow card -->
+                        <div class="yellowscroll wcard emailbox">
+                            <a href="" class="cat"><img src="yellow scroll.svg" alt="yellow scroll"></a>
+                            <h2 class="scollcards">Smashing Newsletter</h2>
+                            <p class="pdf_list">Weekly tips on front-end & UX, delivered straight to your inbox. Just practical stuff that you can use.</p>
+                            <button class="scrollbtn">Jump to Newsletter ↬</button><br>
+                            <small><em>You can unsubscribe with 1 click any time.</em></small>
+                        </div>
+                        </div>
+                    </div>    
+                </div>
+            </section>
+            <!-- card scroll section end -->
+
+            <!-- blue card section start -->
+            <section class="bluecard_container">
+                <div class="container content_bluecard">
+                    <div class="row">
+                        <div class="col-12">
+                            <header class="title_blue">
+                                <span class="blue_summer">SPRING - SUMMER 2023 . NEW WORKSHOPS</span>
+                                <h2 class="blue_cath"><a href="" class="bluebox_htag">
+                                    Boost Your Skills Online,<br>
+                                    On Front-End & Design
+                                </a></h2>
+                            </header>
+                            <p class="bluebox_ptag">Meet <strong>Smashing Workshops</strong> , With practical, actionable insights from experts - live. With interactive exercise, slides, video recordings and a friendly Q&A.</p>
+                            <a href="" class="blue_speakers">Explore all speakers and topics →</a>
+                            <a href="" class="cat_blueimg">
+                                <img src="blue box cat.svg" alt="blue cat" class="widthcat_blue">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+             <!-- blue card section End -->
+
+             <!-- section for community links -->
+             <section class="community_section">
+                <div class="container">
+                    <div class="row">
+                        <h4 class="vertical link_vertical"><span class="lat_post">COMMUNITY LINKS</span></h4>
+                        <!-- top image for community links -->
+                        <div class="fir_person row col-lg-12">
+                            <div class="comimgtop img_rot">
+                                <a href=""><img src="comlinkph1.avif" alt="communityphoto" class="perofweek"></a>
+                            </div>
+                            <div class="col-sm-12 col-md-8 col-lg-9">
+                                <h4 class="perhcom">PERSON OF THE WEEK</h4>
+                                <P class="perpcom">Nick DiLallo (<a href="">@nickdilallo</a>) is a writer based in Brooklyn. He specializes in helping companies integrate writing with design to launch great brands and digital products. His approach is a mix of copywriting and UX writing, and he’s written extensively about how good writing can help make the internet better for everyone. In his career, Nick has worked at top digital agencies like Huge and Work & Co and with clients including Airbnb, Apple, Etsy, IKEA, and MTA. Thank you for everything you do for the community, dear Nick!</P>
+                            </div>
+                        </div>
+
+                        <!-- all community articles in one div -->
+                        <div class="all_comllindiv">
+                            <div class="bottom_divcom">
+                                <article class="artcomlink">
+                                    <div class="imgdivcomm img_rot">
+                                        <a href="">
+                                            <img src="comart1_img.png" alt="commarti" class="imgcomall">
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <div class="span_commlink">
+                                            <span>
+                                                <a href="" class="coadername">Tammy Everts </a>
+                                                <em class="wroteauthor">wrote</em>
+                                               </span> 
+                                        </div>
+                                        <div class="contforcomlink">
+                                            <h2><a href="" class="comlinkh2tag">Guide To Performance Budgets</a></h2>
+                                            <p class="comlinkpart"><small>may 31, 2023 —</small>It’s easier to make a website fast than to keep it fast. Tammy Everts explores
+                                            <a href=""> how performance budgets can help you prevent regressions</a>
+                                            to not waste your performance optimization efforts.</p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        <!-- first articles for community links -->
+                        <div class="bottom_divcom">
+                            <article class="artcomlink">
+                                <div class="imgdivcomm img_rot">
+                                    <a href="">
+                                        <img src="comart2_img.png" alt="commarti" class="imgcomall">
+                                    </a>
+                                </div>
+                                <div>
+                                    <div class="span_commlink">
+                                        <span>
+                                            <a href="" class="coadername">Nathan Curtis </a>
+                                            <em class="wroteauthor">wrote</em>
+                                           </span> 
+                                    </div>
+                                    <div class="contforcomlink">
+                                        <h2><a href="" class="comlinkh2tag">Starting A Design System</a></h2>
+                                        <p class="comlinkpart"><small>june 1, 2023 —</small>  Starting a design system can be daunting. Nathan Curtis shares a
+                                        <a href=""> quick, two-stage activity </a>
+                                        that helps small teams explore the parts of a design system and consider the people involved and products it’ll impact.</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!-- second article community links -->
+                        <div class="bottom_divcom">
+                            <article class="artcomlink">
+                                <div class="imgdivcomm img_rot">
+                                    <a href="">
+                                        <img src="comart3_img.png" alt="commarti" class="imgcomall">
+                                    </a>
+                                </div>
+                                <div>
+                                    <div class="span_commlink">
+                                        <span>
+                                            <a href="" class="coadername">Fran Perez </a>
+                                            <em class="wroteauthor">wrote</em>
+                                           </span> 
+                                    </div>
+                                    <div class="contforcomlink">
+                                        <h2><a href="" class="comlinkh2tag">The Good Line-Height</a></h2>
+                                        <p class="comlinkpart"><small>may 30, 2023 -</small> Figuring out the right line-height for every text size in a type scale can be time-consuming.
+                                        <a href=""> The Good Line-Height</a>
+                                        calculates just the right line-height for you, so it always fits the baseline grid.</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!-- third article community links -->
+                        <div class="bottom_divcom">
+                            <article class="artcomlink">
+                                <div class="imgdivcomm img_rot">
+                                    <a href="">
+                                        <img src="comart4_img.png" alt="commarti" class="imgcomall">
+                                    </a>
+                                </div>
+                                <div>
+                                    <div class="span_commlink">
+                                        <span>
+                                            <a href="" class="coadername">Lisa Charlotte Muth </a>
+                                            <em class="wroteauthor">wrote</em>
+                                           </span> 
+                                    </div>
+                                    <div class="contforcomlink">
+                                        <h2><a href="" class="comlinkh2tag">How Colorblind Readers See Color</a></h2>
+                                        <p class="comlinkpart"><small>may 26, 2023 -</small>What is it like to be colorblind? Lisa Charlotte Muth explores 
+                                        <a href="">  how colorbind readers perceive color,</a>
+                                        how to visualize data with colorblindness in mind, and how to make color decisions.</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!-- fourth articles commumity links -->
+                        <div class="bottom_divcom">
+                            <article class="artcomlink">
+                                <div class="imgdivcomm img_rot">
+                                    <a href="">
+                                        <img src="comart5_img.png" alt="commarti" class="imgcomall">
+                                    </a>
+                                </div>
+                                <div>
+                                    <div class="span_commlink">
+                                        <span>
+                                            <a href="" class="coadername">Mariana Beldi </a>
+                                            <em class="wroteauthor">wrote</em>
+                                           </span> 
+                                    </div>
+                                    <div class="contforcomlink">
+                                        <h2><a href="" class="comlinkh2tag">Fixing SVG Fails</a></h2>
+                                        <p class="comlinkpart"><small>may 25, 2023 —</small> How to debug inline SVGs? To help you troubleshoot improperly rendered SVGs, Mariana Beldi summarized 
+                                        <a href=""> six common SVG fails</a>
+                                        — and how to fix them.</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!-- fifth article community links -->
+                        <div class="bottom_divcom">
+                            <article class="artcomlink">
+                                <div class="imgdivcomm img_rot">
+                                    <a href="">
+                                        <img src="comart6_img.png" alt="commarti" class="imgcomall">
+                                    </a>
+                                </div>
+                                <div>
+                                    <div class="span_commlink">
+                                        <span>
+                                            <a href="" class="coadername">Christopher Butler</a>
+                                            <em class="wroteauthor">wrote</em>
+                                           </span> 
+                                    </div>
+                                    <div class="contforcomlink">
+                                        <h2><a href="" class="comlinkh2tag">The Rhythm Of Your Screen</a></h2>
+                                        <p class="comlinkpart"><small>may 24, 2023 —</small>Every design comes with assumptions about how much content will be seen by people. Christopher Butler explores 
+                                        <a href=""> why length isn’t the problem;</a>
+                                        lack of rhythm is.</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <!-- sixth article community links -->
+                        </div>
+                        <div class="guidiv comdiv_more">
+                            <a href="" class="guides">MORE LINKS ON TWITTER →</a>
+                        </div>
+                    </div>
+                </div>
+             </section>
+    </main>
+    <!-- end for main content -->
+    <footer class="mainfooter">
+        <div class="container">
+            <div class="col-12">
+                <div class="foot_div">
+                    <p class="footer_tit">BROWSE ALL SMASHING MAGAZINE TOPICS</p>
+                <ul class="foot_ul">
+                    <li><a href="#">Accessibility</a></li>
+                    <li><a href="">Best practices</a></li>
+                    <li><a href="">Business</a></li>
+                    <li><a href="">Career</a></li>
+                    <li><a href="">Checklists</a></li>
+                    <li><a href="">CSS</a></li>
+                    <li><a href="">Data Visualization</a></li>
+                    <li><a href="">Design</a></li>
+                    <li><a href="">Design Patterns</a></li>
+                    <li><a href="">Design Systems</a></li>
+                    <li><a href="">E-Commerce</a></li>
+                    <li><a href="">Figma</a></li>
+                    <li><a href="">Freebies</a></li>
+                    <li><a href="">HTML</a></li>
+                    <li><a href="">Illustrator</a></li>
+                    <li><a href="">Inspiration</a></li>
+                    <li><a href="">JavaScript</a></li>
+                    <li><a href="">Mobile</a></li>
+                    <li><a href="">Performance</a></li>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">React</a></li>
+                    <li><a href="">Responsive Design</a></li>
+                    <li><a href="">Round-Ups</a></li>
+                    <li><a href="">SEO</a></li>
+                    <li><a href="">Typography</a></li>
+                    <li><a href="">Tools</a></li>
+                    <li><a href="">UI</a></li>
+                    <li><a href="">Usability</a></li>
+                    <li><a href="">UX</a></li>
+                    <li><a href="">Vue</a></li>
+                    <li><a href="">Wallpapers</a></li>
+                    <li><a href="">Web Design</a></li>
+                    <li><a href="">Workflow</a></li>
+                </ul>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="ptagconfoot">
+                    <p>With a commitment to quality content for the design community.</p>
+                    <p>Founded by <a href="">Vitaly Friedman</a> and <a href="">Sven Lennartz</a>. <span>2006-2023</span>.</p>
+                    <p>Smashing is proudly running on <a href="">Netlify</a>.</p>
+                    <p>Fonts by <a href="">Latinotype.</a></p>
+                </div>
+                <!-- second div for footer section -->
+                <div class="secdiv_footer">
+                    <span class="pencilfooter">✎</span>
+                    <a href="">Write for us</a>
+                    <a href="">Contact us</a>
+                    <a href="">About us (Impressum)</a>
+                    <a href="">Privacy policy</a><br>
+                    <a href="">Membership login</a>
+                    <a href="">Delivery times</a>
+                    <a href="">Advertise</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <a href="#" class="arrow_img">
+                <img src="arrow_img.png" alt="" class="">
+            </a>
+        </div>
+    </footer>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="/js/index.js"></script>
+</body>
+</html>
+
+
